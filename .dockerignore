@@ -1,0 +1,43 @@
+# Git
+.git
+.gitignore
+
+# Build artifacts
+proxy
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Database files (will be created in container)
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+
+# Scripts
+*.ps1
+*.sh
+
+# Test files
+*_test.go
+testdata/
+
+# Temporary files
+*.tmp
+*.log
+
